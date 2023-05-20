@@ -134,8 +134,8 @@ def main():
     if st.checkbox("Afficher le détail de la procédure", key=False):
             st.markdown("#### Prédiction de tags effectuée en utilisant un modèle \
                         de classification supervisée et un modèle non supervisée")
-            st.markdown("* **Modèle supervisé: OneVsRestClassifier(LinearSVC())**")
-            st.markdown("* **Modèle non supervisé: LDA model**")
+            st.markdown("* **Modèle supervisé: OneVsRestClassifier(LinearSVC()** (word-embedding: USE)")
+            st.markdown("* **Modèle non supervisé: LDA model** (tf-idf")
     
     #cust_input = str(st.text_input("**Saisissez votre question**"))
     cust_input = st.text_area("Write your text")
