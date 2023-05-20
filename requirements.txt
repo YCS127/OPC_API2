@@ -77,7 +77,6 @@ opt-einsum==3.3.0
 packaging==23.1
 pandas==2.0.1
 parso==0.8.3
-Pillow==9.5.0
 pywin32==306
 PyYAML==6.0
 pyzmq==25.0.2
