@@ -135,7 +135,7 @@ def main():
             st.markdown("#### Prédiction de tags effectuée en utilisant un modèle \
                         de classification supervisée et un modèle non supervisée")
             st.markdown("* **Modèle supervisé: OneVsRestClassifier(LinearSVC()** (word-embedding: USE)")
-            st.markdown("* **Modèle non supervisé: LDA model** (tf-idf")
+            st.markdown("* **Modèle non supervisé: LDA model** (tf-idf)")
     
     #cust_input = str(st.text_input("**Saisissez votre question**"))
     cust_input = st.text_area("Write your text")
