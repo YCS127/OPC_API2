@@ -94,7 +94,6 @@ Pygments==2.15.1
 pyLDAvis==3.4.1
 Pympler==1.0.1
 pyparsing==3.0.9
-pyrsistent==0.19.3
 pywin32==306
 PyYAML==6.0
 pyzmq==25.0.2
